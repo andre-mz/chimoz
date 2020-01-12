@@ -1,0 +1,71 @@
+
+@media screen and (min-width: 700px) {
+
+    .sec-1 .card-wrapper{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-1 .card{
+        margin:2rem;
+        transition: transform .5s;
+    }
+    .sec-1 .card:hover{
+        transform: scale(1.02);
+    }
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+        }
+        to{
+        opacity: 1;
+        }
+    }
+    .sec-1 .card:nth-child(1){
+        animation: fadeIn .5s .5s backwards;
+    }
+    .sec-1 .card:nth-child(2){
+        animation: fadeIn .5s 1s backwards;
+    }
+    .sec-1 .card:nth-child(3){
+        animation: fadeIn .5s 1.5s backwards;
+    }
+    .sec-1 .card:nth-child(4){
+        animation: fadeIn .5s 2s backwards;
+    }
+}
+@media (min-width: 576px) {
+
+    .dropdown {
+        position: relative;
+    }
+    .dropdown .dropdown-menu {
+        width: auto;
+        right: 0;
+    }
+    .dropdown-list {
+        width: 20rem !important;
+    }
+    .dropdown-list .dropdown-item .text-truncate {
+        max-width: 13.375rem;
+    }
+
+}
+/*Dimensionar imagens i icons*/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+    /* logo */
+    .navbar-brand {
+        background-image: url(../img/chimoz.png) !important;
+        background-repeat: no-repeat !important;
+
+    }
+
+}

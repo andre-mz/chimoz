@@ -1,0 +1,497 @@
+/*body*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    background: rgba(178,190,181,.4);
+
+}
+
+/**CAROUSEL TEXTO*/
+.carouselTexto{
+    margin-top: -300px !important;
+}
+
+
+/**LISTA DE PRODUTOS**/
+.img-produto{
+    display: inline;
+    vertical-align: top;
+    width:250px ;
+    height:340px;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    background: #fff;
+    -moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0.2);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+}
+/**BOTAO LINK PRODUTO**/
+.navBtn{
+    color: #35424f;
+}
+.navBtn:hover{
+    color: #35424f;
+    text-decoration: underline;
+    color: #35424f;
+
+}
+/**CARINHO*/
+#total{
+    font-size: 20px;
+}
+.btn-compras{
+    margin-right: 60px;
+    font-size: 15px;
+    background-color:#fe503e;
+    padding: 10px;
+    color: rgb(255,255,255);
+    border-radius: 5px;
+}
+.btn-comprar{
+    border:none;
+    font-size: 15px;
+    background-color:rgb(34,187,51);
+    padding: 10px 22px 10px 22px;
+    color: rgb(255,255,255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.iconPlus, .iconMenus{
+    color: #000;
+}
+.iconPlus:hover{
+    color: rgb(34,187,51);
+}
+
+.iconMenus:hover{
+    color: rgb(187,33,36);
+}
+/*nome do usuario*/
+#user a:hover{
+    color: #000;
+}
+/**Hover Na imagem**/
+
+/**Tabela de compras**/
+.tabela h4{
+    font-size: 14px;
+}
+/*BOTAO ADICIONAR AO CARRINHO*/
+.btn-link{
+    margin-top: -15px;
+    -moz-border-radius:5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+    padding: 5px 22px;
+    background: #fe503e;
+    color: #fff;
+    text-decoration: none;
+    -moz-box-shadow: 0 1px 25px 0 rgba(0,0,0,.05) inset, 0 -1px 25px 0 rgba(0,0,0,.05) inset;
+    -webkit-box-shadow: 0 1px 25px 0 rgba(0,0,0,.05) inset, 0 -1px 25px 0 rgba(0,0,0,.05) inset;
+    box-shadow: 0 1px 25px 0 rgba(0,0,0,.05) inset, 0 -1px 25px 0 rgba(0,0,0,.05) inset;
+}
+.btn-link:hover {
+    cursor: pointer;
+    -moz-box-shadow: none;
+    -webkit-box-shadow:
+            none; box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+}
+.info{
+    position: relative;
+    margin-top: 200px;
+    line-height: 30px;
+}
+
+
+
+.servico{
+    background: #fff;
+    -moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0.2);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+}
+.servico .servico-icon{
+    font-size: 50px;
+    line-height: 50px;
+    color: #5d5d5d;
+    text-align: center;
+}
+.servico .servico-icon span{
+    vertical-align: middle;
+}
+.servico h3{
+    margin-top: 13px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.servico p{
+    padding-top: 7px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+/***CONTACTO*/
+.contacto-container{
+    margin-bottom: 50px;
+    margin-top: 40px;
+    text-align: left;
+}
+.contacto-container h3{
+    margin-top: 25px;
+    font-size: 18px;
+    padding-top: 290px;
+}
+.contacto-container p {
+    line-height: 28px;
+    text-align: left;
+
+}
+.contacto-container .btn{
+    padding: 5px 40px 5px 40px;
+    background: #e8491d;
+    color: #fff;
+}
+.contacto-form{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.contacto-form form{
+    margin-top: 30px;
+}
+.contacto-form form .form-group{
+    padding-bottom: 20px;
+}
+.contacto-form input[type="text"]{
+    width: 90%;
+    height:34px;
+}
+.contacto-form input{
+    background: transparent;
+}
+.contacto-form textarea{
+    background: transparent;
+}
+.contacto-form textarea{
+    width: 90%;
+    height: 160px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.contacto-form label {
+    font-weight: 400;
+}
+.contacto-form label .error-label {
+    font-style: italic
+}
+.contacto-form button {
+    margin-top: 5px;
+    padding: 0 45px;
+}
+
+/*SOBRE O SITE*/
+.servico{
+    margin-top: 10px;
+    padding: 15px 15px 20px 15px;
+    background: #fff;
+    -moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0.2);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+}
+.servico{
+    margin-bottom: 50px;
+    margin-top: 100px !important;
+}
+.dlt1{
+    font-size: 20px;
+    color:#35424f;
+    padding-bottom: 5px;
+}
+.dlt{
+    font-size: 20px;
+    text-align: left;
+    color:#35424f;
+    padding-bottom: 5px;
+}
+.servico2{
+    font-size: 14px;
+    padding-top: -100px;
+}
+.colorido-texto { color: #fe503e; }
+
+
+/*****Link registro e login*****/
+/*Todo intem dentro da classe top content*/
+.login .top-content{
+    padding-bottom: 60px 0 80px 0;
+    margin-top: 55px;
+}
+.login .top-content .text{
+    color: #fff;
+}
+.login .top-content .text h1{
+    color: #fff;
+}
+.login .top-content .descricao{
+    padding: 20px 0 10px 0;
+}
+.login a, a:hover, a:focus {
+    color: #fff;
+    text-decoration: none;
+}
+/*onde sera separado o link da pagina login e a do registro*/
+.login .show-forms{
+    padding-top: 40px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 26px;
+    text-align: left;
+}
+.login .show-registro-form, .show-divisor, .show-login-form{
+    opacity: 1;
+}
+.login .show-registro-form, .show-login-form{
+    cursor: pointer;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+.login .show-registro-form.active, .show-login-form.active,
+.login .show-registro-form:hover, .show-login-form:hover{
+    opacity: 1;
+}
+.login .btn-link-1{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    padding: 0;
+    background: #555;
+    background: rgba(0,0,0,.3);
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius: 50%;
+}
+.login{
+    background: url(../img/showcase.jpg);
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+}
+.text h1{
+    margin-top: 5px;
+    font-size: 40px;
+    font-weight: 100;
+    columns: #555;
+    line-height: 48px;
+}
+.forms-right-icons h3{
+    font-weight: 300;
+    font-size: 20px;
+    color: #555;
+    line-height: 26px;
+}
+/*registro*/
+.r-form{
+    padding-top: 40px;
+}
+.r-form, .form-group{
+    margin-bottom: 25px;
+}
+.r-form .input-erro{
+    border-color: #42c5ea;
+}
+/*login*/
+
+.l-form{
+    padding-top: 40px;
+}
+.l-form, .form-group{
+    margin-bottom: 25px;
+}
+.l-form, .input-error{
+    border-color: #42c5ea;
+}
+
+.forms-right-icons .row {
+    padding-bottom: 15px;
+}
+.forms-right-icons {
+    padding-top: 40px;
+    color: #fff;
+    text-align: left;
+}
+.forms-right-icons h3 {
+    margin-top: 0; color: #fff;
+}
+.forms-right-icons .icon {
+    text-align: right;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.social-media {
+    margin-top: 35px;
+    color: #fff;
+}
+.social-media-buttons {
+    margin-top: 20px;
+}
+
+
+
+
+
+/**TEXTO DO SLIDE**/
+.carousel-item h1{
+    font-size: 20px;
+}
+.top-content{
+    margin-top: 190px;
+}
+.top-content img{
+    height: 600px;
+}
+
+/**MENU NAVEGACAO**/
+.navbar {
+    background: #fff;
+    transition: all .5s;
+    backface-visibility: hidden;
+}
+
+.navbar.navbar-no-bg {
+    background: #fff;
+    background: #fff;
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #000;
+    color: #000;
+    border: 0;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.7);
+}
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: rgba(0,0,0,.7); outline: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link #user:hover {
+    color: #000;
+}
+.navbar-dark .navbar-nav .nav-link #user:focus {
+    color: #000; outline: 0;
+}
+
+#tech{
+    color: #fe503e;
+}
+a#nav-Titulo{
+    color: #35424f !important;
+    text-decoration: none !important;
+    font-size: 25px;
+}
+a#nav-Titulo:hover{
+    color:#35424f !important;
+}
+.navbar-toggler{
+    background: #fe503e !important;
+    border: none;
+}
+
+/**ICON**/
+i#chipTitulo{color:  #43a327;}
+i#icon-facebook{color: #3b5999;}
+i#icon-twitter{color: #55acee;}
+i#icon-instagram{color: #e4405f;}
+i#icon-google{color: #dd4b39;}
+
+
+/**FOOTER**/
+
+footer{
+    margin-top: 50px;
+    background:url(../img/showcase-1.jpg);
+
+}
+footer p{
+    font-size: 14px;
+}
+.footer-top {
+    padding: 60px 0;
+    text-align: left;
+    color: #fff; color:
+        rgba(255, 255, 255, 0.8);
+}
+
+.footer-top h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.footer-contact p {
+    word-wrap: break-word;
+}
+.footer-contact i {
+    padding-right: 10px;
+    font-size: 18px;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-links a {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
+}
+.footer-links a:hover, .footer-links a:focus { color: #fff; }
+
+.footer-bottom {
+    padding: 15px 0 17px 0;
+    background: #fff;
+    text-align: left;
+    color: #000;
+}
+img{max-width: 100%;}
+.footer-social {
+    padding-top: 3px;
+    text-align: right;
+}
+.footer-social a {
+    margin-left: 20px;
+}
+.footer-social a:hover, .footer-social a:focus {
+    color: #79a05f;
+    border: 0;
+}
+.footer-social i {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.social { padding-top: 5px; }
+.social a { color: #fff; border: 0; }
+.social a:hover, .social a:focus { color: #aaa; border: 0; }

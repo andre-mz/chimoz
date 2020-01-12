@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="chimoeventos" />
+    <orderEntry type="module" module-name="Dashio" />
+    <orderEntry type="module" module-name="Projecto_V1" />
+    <orderEntry type="module" module-name="jedy-landing-page" />
+    <orderEntry type="module" module-name="startbootstrap-creative-gh-pages" />
+  </component>
+</module>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/Dashio/.idea/Dashio.iml" filepath="D:/Dashio/.idea/Dashio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../projecto_diae/.idea/Projecto_V1.iml" filepath="$PROJECT_DIR$/../projecto_diae/.idea/Projecto_V1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../chimoeventos/.idea/chimoeventos.iml" filepath="$PROJECT_DIR$/../chimoeventos/.idea/chimoeventos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/chimoz.iml" filepath="$PROJECT_DIR$/.idea/chimoz.iml" />
+      <module fileurl="file://D:/1.imdB/NEW HTML/jedy-landing-page/.idea/jedy-landing-page.iml" filepath="D:/1.imdB/NEW HTML/jedy-landing-page/.idea/jedy-landing-page.iml" />
+      <module fileurl="file://D:/startbootstrap-creative-gh-pages/.idea/startbootstrap-creative-gh-pages.iml" filepath="D:/startbootstrap-creative-gh-pages/.idea/startbootstrap-creative-gh-pages.iml" />
+    </modules>
+  </component>
+</project>
